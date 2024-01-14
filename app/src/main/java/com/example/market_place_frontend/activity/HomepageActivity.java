@@ -1,10 +1,12 @@
-package com.example.market_place_frontend;
+package com.example.market_place_frontend.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Homepage extends AppCompatActivity {
+import com.example.market_place_frontend.R;
+
+public class HomepageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

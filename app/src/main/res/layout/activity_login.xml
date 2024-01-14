@@ -7,7 +7,7 @@
     android:background="@drawable/login_bg"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,20 +52,20 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/username_et"
+                android:id="@+id/username_et_login"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/custom_edit_text"
                 android:hint="@string/example_mail_tv"
                 android:padding="14dp"
-                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHighlight="@color/cardview_light_background"
                 android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/password_tv"
                 android:textAlignment="center"
                 android:textColor="@color/blue"
@@ -73,7 +73,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/password_et"
+                android:id="@+id/password_et_login"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
@@ -84,7 +84,7 @@
                 android:hint="@string/password_stars"
                 android:inputType="textPassword"
                 android:padding="14dp"
-                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHighlight="@color/cardview_light_background"
                 android:textSize="12sp" />
 
             <LinearLayout
@@ -94,7 +94,7 @@
                 android:layout_marginTop="8dp">
 
                 <CheckBox
-                    android:layout_width="20dp"
+                    android:layout_width="25dp"
                     android:layout_height="20dp"
                     android:buttonTint="@color/blue"/>
                 <TextView
@@ -117,32 +117,37 @@
 
             <Button
                 android:id="@+id/login_button"
-                android:layout_width="260dp"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/blue"
                 android:text="@string/login_btn_txt"
-                app:cornerRadius="10dp" />
+                android:textColor="@color/white"
+                android:background="@drawable/custom_edit_text"
+                app:cornerRadius="20dp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginTop="15dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/not_registered_tv"
                     android:textColor="@color/gray_ft"
-                    android:textSize="11sp" />
+                    android:textSize="12sp" />
 
                 <TextView
+                    android:id="@+id/signup_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/signup_tv"
                     android:paddingStart="5dp"
                     android:textColor="@color/blue_50"
-                    android:textSize="11sp"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
                     tools:ignore="RtlSymmetry" />
             </LinearLayout>
         </LinearLayout>

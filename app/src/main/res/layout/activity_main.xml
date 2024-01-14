@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 <!-- todo: you can add later a custom background, u can
       design it using canvas or figma-->
     <androidx.cardview.widget.CardView
@@ -23,59 +23,37 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
             android:padding="24dp">
-            <TextView
-                android:id="@+id/login_tv"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/login_tv_txt"
-                android:textSize="36sp"
-                android:textAlignment="center"
-                android:textStyle="bold"
-                android:textColor="#9C27B0"/>
-            <EditText
-                android:id="@+id/username_et"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/custom_edit_text"
-                android:drawableStart="@drawable/baseline_person_outline_24"
-                android:drawablePadding="8dp"
-                android:hint="@string/username_et_txt"
-                android:padding="8dp"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="40dp" />
-
-            <EditText
-                android:id="@+id/password_et"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/custom_edit_text"
-                android:drawableStart="@drawable/outline_lock_24"
-                android:drawablePadding="8dp"
-                android:hint="@string/password_et_txt"
-                android:padding="8dp"
-                android:inputType="textPassword"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="40dp" />
             <Button
-                android:id="@+id/login_button"
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:text="@string/login_btn_txt"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="#9C27B0"
-                app:cornerRadius = "20dp"/>
+                android:background="@drawable/custom_edit_text"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Register"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_edit_text"
+                android:backgroundTint="@color/blue"
+                app:cornerRadius = "20dp"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/cart_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Cart"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_edit_text"
+                android:backgroundTint="@color/blue"
+                app:cornerRadius = "20dp"
+                android:textColor="@color/white"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-    <TextView
-        android:id="@+id/signup_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/not_registered_tv"
-        android:textSize="14sp"
-        android:textAlignment="center"
-        android:textColor="#9C27B0"
-        android:layout_marginBottom="20dp"
-        />
+
 
 </LinearLayout>
