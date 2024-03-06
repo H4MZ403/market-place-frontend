@@ -27,7 +27,8 @@ Here are snapshots showcasing the mobile application's user interface:
 
 3. **Notification (Promotions and Orders) Screen:**:
    Ever wonder what's cooking in terms of promotions? The promotions notification page has got you covered, sending you alerts about all the sweet deals. On the flip side, the orders notification page ensures you're always in the know about the status of your purchases, keeping you updated on the behind-the-scenes action.
-<img width="1240" alt="screens 3" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/6964e0ad-9b0c-4790-8e26-7c9c8c597191">
+<img width="1240" alt="screens 3-v2" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/20a18478-7d81-4253-ba34-5d8e99035f66">
+
 
 
 ## Installation
