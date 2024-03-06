@@ -22,7 +22,7 @@ Here are snapshots showcasing the mobile application's user interface:
 
 
 3. **Messages, Contact and Settings Screen**:
-   Talk about the screens here
+  Talk about the screens here
 <img width="1240" alt="screens 3" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/6964e0ad-9b0c-4790-8e26-7c9c8c597191">
 
 
