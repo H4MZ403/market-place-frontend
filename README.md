@@ -17,11 +17,13 @@ Here are snapshots showcasing the mobile application's user interface:
 	
 <img width="1240" alt="screens 1" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/c22fd308-a587-4e64-9463-81f2f46407b7">
 
+###
 
 2. **Product, Account and Cart Screen**:
   Now, let's talk about the fun stuff. The product page is where you'll get up close and personal with all the items up for grabs. Found something you love? Head over to your account page, where you can tweak your profile, check out past orders, and customize your preferences. And of course, there's the cart page – your shopping buddy, displaying everything you've added for a final check before checkout.
 <img width="1240" alt="screens 2" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/3485ed67-39f6-41a0-bbe5-cc5195f8b18b">
 
+###
 
 3. **Notification (Promotions and Orders) Screen:**:
    Ever wonder what's cooking in terms of promotions? The promotions notification page has got you covered, sending you alerts about all the sweet deals. On the flip side, the orders notification page ensures you're always in the know about the status of your purchases, keeping you updated on the behind-the-scenes action.
