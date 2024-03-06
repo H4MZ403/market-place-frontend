@@ -12,19 +12,16 @@ MarketPlace is a user-friendly market-place application built using the android 
 ## Screenshots
 Here are snapshots showcasing the mobile application's user interface:
 1. **Onboarding Screen**:
-
 Talk about the screens here
 <img width="1240" alt="screens 1" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/c22fd308-a587-4e64-9463-81f2f46407b7">
 
 
 3. **Messages, Contact and Settings Screen**:
-
 Talk about the screens here
 <img width="1240" alt="screens 2" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/3485ed67-39f6-41a0-bbe5-cc5195f8b18b">
 
 
 5. **Messages, Contact and Settings Screen**:
-
 Talk about the screens here
 <img width="1240" alt="screens 3" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/6964e0ad-9b0c-4790-8e26-7c9c8c597191">
 
