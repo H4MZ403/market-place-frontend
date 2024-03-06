@@ -23,7 +23,8 @@ Talk about the screens here
 
 5. **Messages, Contact and Settings Screen**:
 Talk about the screens here
-<img width="1240" alt="screens 3" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/6964e0ad-9b0c-4790-8e26-7c9c8c597191">
+<img width="1240" alt="screens 3-v2" src="https://github.com/H4MZ403/market-place-frontend/assets/93478160/ce055a3f-37c2-4d95-b5dc-b447e5892787">
+
 
 
 ## Installation
