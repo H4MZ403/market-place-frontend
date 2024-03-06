@@ -37,7 +37,7 @@ To run the Marketplace Android App, follow these steps:
 
 1.  Clone the repository:
 
-	```git clone [link-to-your-repo]```
+	```git clone https://github.com/H4MZ403/market-place-frontend.git```
     
 -   Open the project in Android Studio.
     
